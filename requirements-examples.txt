@@ -1,0 +1,8 @@
+# Зависимости для examples/, которые не покрывает stdlib.
+# Stdlib-примеры (drills, большинство python-*) ничего отсюда не требуют.
+
+PyJWT>=2.8
+redis>=5.0
+celery>=5.3
+Django>=4.2
+bleach>=6.0

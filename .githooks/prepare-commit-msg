@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Strip Cursor / AI co-author trailers from commit messages.
+msg_file="$1"
+[ -f "$msg_file" ] || exit 0
+tmp="$(mktemp)"
+grep -viE '^Co-authored-by:.*[Cc]ursor|^Co-authored-by:.*noreply@cursor|^Made-with:[[:space:]]*Cursor|^Generated-by:.*[Cc]ursor' "$msg_file" > "$tmp" || true
+mv "$tmp" "$msg_file"
