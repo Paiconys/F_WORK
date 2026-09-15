@@ -33,18 +33,18 @@ AI-проекты: backend на **FastAPI**, интеграция LLM-агент
 | Git / практика кода | [`git`](../topics/git/git.md), [`practices`](../topics/practices/practices.md) | must |
 | Тесты (на собесе часто) | [`python-testing`](../topics/python-testing/python-testing.md) | should |
 | Docker / деплой (Azure в описании) | [`docker-infra`](../topics/docker-infra/docker-infra.md) | should |
+| FastAPI | [`fastapi`](../topics/fastapi/fastapi.md) | must |
+| AI-assisted dev (Claude Code и т.п.) | [`ai-tools`](../topics/ai-tools/ai-tools.md) | must |
 
-## Gap (нет отдельного блока в репо)
+## Gap (ещё нет блока)
 
-- **FastAPI** (не Django) — главный стек вакансии
-- **LangGraph / LLM-агенты**
-- **Claude Code / AI-assisted workflow**
+- **LangGraph / LLM-агенты** (продуктовые агенты, не IDE)
 - **pgvector / embeddings**
-- English B1 (не тема `topics/`)
+- English B1
 
 ## План повторения (коротко)
 
 1. `python-basics` + `python-oop` + `python-async`
-2. REST/HTTP из `rest-drf` (даже без Django)
-3. `databases` (Postgres)
-4. Параллельно: мини-сервис на FastAPI (вне репо) + 1 агентный туториал LangGraph
+2. `fastapi` + HTTP из `rest-drf`
+3. `databases` (Postgres) + `ai-tools`
+4. Параллельно: 1 туториал LangGraph (пока gap)

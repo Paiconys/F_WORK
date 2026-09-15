@@ -15,6 +15,8 @@
 - [`python-testing`](./topics/python-testing/python-testing.md) — Python — тестирование (4)
 - [`databases`](./topics/databases/databases.md) — Базы данных и ORM (18)
 - [`django`](./topics/django/django.md) — Django (16)
+- [`fastapi`](./topics/fastapi/fastapi.md) — FastAPI (8)
+- [`aiohttp`](./topics/aiohttp/aiohttp.md) — aiohttp (6)
 - [`rest-drf`](./topics/rest-drf/rest-drf.md) — REST / DRF (10)
 - [`security`](./topics/security/security.md) — Безопасность веб (6)
 - [`auth`](./topics/auth/auth.md) — Аутентификация и авторизация (3)
@@ -25,10 +27,11 @@
 - [`docker-infra`](./topics/docker-infra/docker-infra.md) — Docker и инфраструктура (6)
 - [`git`](./topics/git/git.md) — Git (4)
 - [`practices`](./topics/practices/practices.md) — Практики (SOLID, паттерны) (2)
+- [`ai-tools`](./topics/ai-tools/ai-tools.md) — AI tools (для разработки) (6)
 
 ## Вакансии
 
-- [`vacancies/`](./vacancies/) — требования вакансий и карта блоков для подготовки
+- [`vacancies/`](./vacancies/) — вакансия → требования → блоки; новые технологии сначала в `topics/`/`questions.md`
 
 ## Собесы
 

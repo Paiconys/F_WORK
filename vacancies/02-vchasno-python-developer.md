@@ -40,18 +40,19 @@
 | Практики / архитектура | [`practices`](../topics/practices/practices.md) | should |
 | Frontend SPA (плюс) | [`frontend`](../topics/frontend/frontend.md) | nice |
 | Auth / security API | [`auth`](../topics/auth/auth.md), [`security`](../topics/security/security.md) | should |
+| aiohttp | [`aiohttp`](../topics/aiohttp/aiohttp.md) | must |
 
-## Gap (нет отдельного блока)
+## Gap (ещё нет блока)
 
-- **Aiohttp / Pyramid** (у нас Django-ориентированные блоки)
-- **RabbitMQ** (есть идея очередей через Celery)
-- **ElasticSearch / MongoDB** детально
+- **Pyramid**
+- **RabbitMQ** детально (рядом с [`queues`](../topics/queues/queues.md))
+- **ElasticSearch / MongoDB** глубже, чем обзор в databases
 - **GraphQL**, **Kubernetes**, **GitLab CI**
 - LLM-интеграции
 
 ## План повторения (коротко)
 
-1. `python-async` до уверенного рассказа asyncio
+1. `python-async` + `aiohttp`
 2. `databases` + `caching` + `queues`
 3. `rest-drf` + `python-testing` + `docker-infra` + `git`
-4. Снаружи: aiohttp hello-service + Celery+Redis demo
+4. Celery+Redis demo; K8s — пока gap

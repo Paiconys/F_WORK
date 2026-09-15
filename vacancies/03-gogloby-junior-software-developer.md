@@ -37,16 +37,15 @@ Full-cycle разработка на **Python + JavaScript**, REST, реляци
 | Docker (часто на junior+) | [`docker-infra`](../topics/docker-infra/docker-infra.md) | should |
 | Архитектура / практики | [`practices`](../topics/practices/practices.md) | should |
 | Async (плюс к росту) | [`python-async`](../topics/python-async/python-async.md) | nice |
+| AI-first / prompts | [`ai-tools`](../topics/ai-tools/ai-tools.md) | must |
 
-## Gap
+## Gap (ещё нет блока)
 
-- **JavaScript глубже** (у нас только тонкий frontend-блок)
-- **Prompt engineering / AI-first workflow** как отдельная тема
+- **JavaScript глубже** / React / Next.js / Node
 - English B2
-- React / Next.js / Node (nice)
 
 ## План повторения (коротко)
 
 1. `python-basics` + `python-oop` + `databases` + `rest-drf`
-2. `frontend` + `git` + маленький end-to-end pet (API + JS UI)
+2. `frontend` + `git` + `ai-tools`
 3. Портфолио/GitHub под «что построил»

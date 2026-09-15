@@ -3,6 +3,8 @@
 Каталог блоков и вопросов **без ответов** — чтобы не дублировать при добавлении.
 Ответы: `topics/<блок>/<блок>.md`. Собесы: `interviews/`. Вакансии: `vacancies/`.
 
+Новые технологии из вакансий → сначала строка здесь и блок в `topics/`, потом ссылка из файла вакансии.
+
 ---
 
 ## Блоки (порядок)
@@ -13,16 +15,19 @@
 4. `python-testing` — Python — тестирование
 5. `databases` — Базы данных и ORM
 6. `django` — Django
-7. `rest-drf` — REST / DRF
-8. `security` — Безопасность веб
-9. `auth` — Аутентификация и авторизация
-10. `caching` — Кэш
-11. `queues` — Очереди и фоновые задачи
-12. `realtime` — Realtime: WebSocket / Channels
-13. `frontend` — Frontend
-14. `docker-infra` — Docker и инфраструктура
-15. `git` — Git
-16. `practices` — Практики (SOLID, паттерны)
+7. `fastapi` — FastAPI
+8. `aiohttp` — aiohttp
+9. `rest-drf` — REST / DRF
+10. `security` — Безопасность веб
+11. `auth` — Аутентификация и авторизация
+12. `caching` — Кэш
+13. `queues` — Очереди и фоновые задачи
+14. `realtime` — Realtime: WebSocket / Channels
+15. `frontend` — Frontend
+16. `docker-infra` — Docker и инфраструктура
+17. `git` — Git
+18. `practices` — Практики (SOLID, паттерны)
+19. `ai-tools` — AI tools (для разработки)
 
 Новый блок: допиши строку сюда → создай `topics/<имя>/<имя>.md` → добавь секцию вопросов ниже.
 
@@ -141,6 +146,30 @@
 
 Ответы: [`topics/django/django.md`](./topics/django/django.md)
 
+### `fastapi`
+
+- Что такое FastAPI и зачем он
+- ASGI и почему FastAPI быстрый
+- Path / Query параметры и type hints
+- Pydantic-модели для body
+- Depends — что это
+- async def vs def в хендлерах
+- Автодокументация OpenAPI
+- FastAPI vs Django/DRF — когда что
+
+Ответы: [`topics/fastapi/fastapi.md`](./topics/fastapi/fastapi.md)
+
+### `aiohttp`
+
+- Что такое aiohttp
+- Client vs Server API
+- Application, Router, Request/Response
+- Зачем ClientSession
+- aiohttp vs FastAPI / asyncio
+- Типичные ошибки на собесе
+
+Ответы: [`topics/aiohttp/aiohttp.md`](./topics/aiohttp/aiohttp.md)
+
 ### `rest-drf`
 
 - APIView vs generic views (`ListCreateAPIView`)
@@ -237,3 +266,14 @@
 - Какие знаешь паттерны проектирования, какие использовал
 
 Ответы: [`topics/practices/practices.md`](./topics/practices/practices.md)
+
+### `ai-tools`
+
+- Что такое AI-assisted development
+- Cursor / Copilot / Claude Code — зачем
+- Как писать полезный промпт к коду
+- Когда ИИ врёт и как это ловить
+- Что оставлять за человеком
+- Как говорить об этом на собесе
+
+Ответы: [`topics/ai-tools/ai-tools.md`](./topics/ai-tools/ai-tools.md)
