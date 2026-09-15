@@ -1,11 +1,10 @@
-"""
-
-Dependencies: none (stdlib)
-Кэш: hit/miss и инвалидация (stdlib + опционально Redis).
+"""Кэш: hit/miss и инвалидация (stdlib + опционально Redis).
 
 Dependencies (optional Redis demo):
   pip install redis
   # и запущенный Redis на localhost:6379
+
+Dependencies: none (stdlib)
 """
 
 from functools import lru_cache

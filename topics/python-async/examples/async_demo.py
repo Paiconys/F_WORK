@@ -1,7 +1,7 @@
-"""
+"""Минимальная идея async/await (нужен event loop).
 
 Dependencies: none (stdlib)
-Минимальная идея async/await (нужен event loop)."""
+"""
 
 import asyncio
 

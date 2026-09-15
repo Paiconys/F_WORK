@@ -1,7 +1,4 @@
-"""
-
-Dependencies: none (stdlib)
-Очередь задач: HTTP не ждёт тяжёлую работу.
+"""Очередь задач: HTTP не ждёт тяжёлую работу.
 
 Вариант A (stdlib) — всегда работает.
 Вариант B (Celery) — нужен брокер.
@@ -9,6 +6,8 @@ Dependencies: none (stdlib)
 Dependencies for Celery variant:
   pip install celery redis
   # redis-server + celery -A queue_demo worker -l info
+
+Dependencies: none (stdlib)
 """
 
 from __future__ import annotations

@@ -1,7 +1,7 @@
-"""
+"""MRO / diamond — учебный пример к теории.
 
 Dependencies: none (stdlib)
-MRO / diamond — учебный пример к теории."""
+"""
 
 
 class A:

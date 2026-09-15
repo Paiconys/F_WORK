@@ -1,7 +1,7 @@
-"""
+"""context manager — гарантия очистки ресурса.
 
 Dependencies: none (stdlib)
-context manager — гарантия очистки ресурса."""
+"""
 
 
 class CM:

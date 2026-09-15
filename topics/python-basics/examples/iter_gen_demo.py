@@ -1,7 +1,7 @@
-"""
+"""Итератор vs генератор.
 
 Dependencies: none (stdlib)
-Итератор vs генератор."""
+"""
 
 
 def gen():

@@ -1,7 +1,7 @@
-"""
+"""*args — кортеж, **kwargs — словарь.
 
 Dependencies: none (stdlib)
-*args — кортеж, **kwargs — словарь."""
+"""
 
 
 def f(a, *args, **kwargs):

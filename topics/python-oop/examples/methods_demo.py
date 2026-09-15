@@ -1,7 +1,7 @@
-"""
+"""instance / class / static methods.
 
 Dependencies: none (stdlib)
-instance / class / static methods."""
+"""
 
 
 class A:

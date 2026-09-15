@@ -1,7 +1,7 @@
-"""
+"""DRILL: late binding — lambda в цикле.
 
 Dependencies: none (stdlib)
-DRILL: late binding — lambda в цикле."""
+"""
 
 flist = []
 

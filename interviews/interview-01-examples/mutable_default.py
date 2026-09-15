@@ -1,9 +1,8 @@
-"""
-
-Dependencies: none (stdlib)
-DRILL: mutable default argument — что напечатается?
+"""DRILL: mutable default argument — что напечатается?
 
 Запусти файл и сравни с прогнозом вслух.
+
+Dependencies: none (stdlib)
 """
 
 

@@ -1,7 +1,7 @@
-"""
+"""dataclass — меньше шаблонного кода для данных.
 
 Dependencies: none (stdlib)
-dataclass — меньше шаблонного кода для данных."""
+"""
 
 from dataclasses import dataclass
 

@@ -1,9 +1,8 @@
-"""
-
-Dependencies: none (stdlib)
-DRILL: какой метод вызовет super().bar()?
+"""DRILL: какой метод вызовет super().bar()?
 
 MRO: всегда смотри Class.__mro__
+
+Dependencies: none (stdlib)
 """
 
 
