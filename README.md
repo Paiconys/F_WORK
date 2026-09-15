@@ -1,61 +1,41 @@
 # F_WORK — теория к техсобесу
 
-Только **что это / зачем / как работает** + примеры кода.
-Без soft-skills и без вырезок из конкретного проекта.
+Один **блок темы** = один файл `{тема}/{тема}.md` (все вопросы подряд).
+Отдельно — выгрузки с реальных собесов в `interviews/`.
 
-## Структура
+## Темы
 
-```
-topics/<тема>/
-  README.md
-  <вопрос>.md      # Коротко → Развёрнуто → Пример
-  examples/*.py
-```
+- [`python-basics`](./topics/python-basics/python-basics.md) — Python basics (23)
+- [`python-oop`](./topics/python-oop/python-oop.md) — Python — ООП (13)
+- [`python-async`](./topics/python-async/python-async.md) — Python — async / GIL / параллелизм (7)
+- [`python-testing`](./topics/python-testing/python-testing.md) — Python — тестирование (4)
+- [`databases`](./topics/databases/databases.md) — Базы данных и ORM (18)
+- [`django`](./topics/django/django.md) — Django (16)
+- [`rest-drf`](./topics/rest-drf/rest-drf.md) — REST / DRF (10)
+- [`security`](./topics/security/security.md) — Безопасность веб (6)
+- [`auth`](./topics/auth/auth.md) — Аутентификация и авторизация (3)
+- [`caching`](./topics/caching/caching.md) — Кэш (3)
+- [`queues`](./topics/queues/queues.md) — Очереди и фоновые задачи (2)
+- [`realtime`](./topics/realtime/realtime.md) — Realtime: WebSocket / Channels (8)
+- [`frontend`](./topics/frontend/frontend.md) — Frontend (3)
+- [`docker-infra`](./topics/docker-infra/docker-infra.md) — Docker и инфраструктура (6)
+- [`git`](./topics/git/git.md) — Git (4)
+- [`practices`](./topics/practices/practices.md) — Практики (SOLID, паттерны) (2)
+
+## Собесы
+
+- [`interview-01`](./interviews/interview-01.md) — Codeshare 14 Sep 2026 (mutable default, MRO, late binding)
+
+## Запуск примеров
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements-examples.txt
 
-python topics/drills/examples/mro_super_abc.py
+python topics/python-oop/examples/mro_demo.py
+python interviews/interview-01-examples/mutable_default.py
 ```
-
-## Темы
-
-- [`python-types`](./topics/python-types/) — Python — типы, мутабельность, сравнение (4)
-- [`python-functions`](./topics/python-functions/) — Python — функции и выражения (5)
-- [`python-oop`](./topics/python-oop/) — Python — ООП, MRO, декораторы (13)
-- [`python-iterators`](./topics/python-iterators/) — Python — итераторы и генераторы (3)
-- [`python-async`](./topics/python-async/) — Python — async, GIL, параллелизм (7)
-- [`python-testing`](./topics/python-testing/) — Python — тестирование (4)
-- [`python-packaging`](./topics/python-packaging/) — Python — окружение, модули, импорты (5)
-- [`python-stdlib`](./topics/python-stdlib/) — Python — исключения, with, dataclass (4)
-- [`python-complexity`](./topics/python-complexity/) — Python — сложность алгоритмов (2)
-- [`databases`](./topics/databases/) — Базы данных (14)
-- [`orm`](./topics/orm/) — ORM (4)
-- [`django`](./topics/django/) — Django (16)
-- [`rest-drf`](./topics/rest-drf/) — REST / DRF (10)
-- [`security`](./topics/security/) — Безопасность веб (6)
-- [`auth`](./topics/auth/) — Аутентификация и авторизация (3)
-- [`caching`](./topics/caching/) — Кэш (3)
-- [`queues`](./topics/queues/) — Очереди и фоновые задачи (2)
-- [`realtime`](./topics/realtime/) — Realtime: WebSocket, Channels, events (8)
-- [`frontend`](./topics/frontend/) — Frontend (Vue) (3)
-- [`docker-infra`](./topics/docker-infra/) — Docker и инфраструктура (6)
-- [`git`](./topics/git/) — Git (4)
-- [`practices`](./topics/practices/) — Практики (SOLID, паттерны) (2)
-- [`drills`](./topics/drills/) — Тренажёр: угадай вывод (4)
-
-## Не кладём сюда
-
-- soft («как рассказать про опыт», команда, дедлайны)
-- кейсы конкретного ТЗ/проекта (LIFO 25, homepage, lightbox…)
-- карточки «как у нас в compose»
-
-## Правила
-
-1. Карточка = теория для техсобеса.
-2. Пример либо stdlib, либо с `Dependencies:` в `.py`.
 
 ## Git
 
@@ -64,3 +44,9 @@ python topics/drills/examples/mro_super_abc.py
 ```bash
 git config core.hooksPath .githooks
 ```
+
+## Правила
+
+1. Тема = один md-файл со всеми вопросами блока.
+2. Новые собесы клади в `interviews/interview-02.md`, `interview-03.md`, …
+3. Примеры кода — в `examples/` рядом с темой или в `interviews/interview-NN-examples/`.
