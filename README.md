@@ -5,6 +5,8 @@
 
 Каталог блоков и вопросов без ответов: [`questions.md`](./questions.md).
 
+Вакансии → что учить: [`vacancies/`](./vacancies/).
+
 ## Темы
 
 - [`python-basics`](./topics/python-basics/python-basics.md) — Python basics (23)
@@ -23,6 +25,10 @@
 - [`docker-infra`](./topics/docker-infra/docker-infra.md) — Docker и инфраструктура (6)
 - [`git`](./topics/git/git.md) — Git (4)
 - [`practices`](./topics/practices/practices.md) — Практики (SOLID, паттерны) (2)
+
+## Вакансии
+
+- [`vacancies/`](./vacancies/) — требования вакансий и карта блоков для подготовки
 
 ## Собесы
 
