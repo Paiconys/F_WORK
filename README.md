@@ -56,3 +56,11 @@ python topics/drills/examples/mro_super_abc.py
 
 1. Карточка = теория для техсобеса.
 2. Пример либо stdlib, либо с `Dependencies:` в `.py`.
+
+## Git
+
+Чтобы Cursor не попадал в `Co-authored-by` коммитов:
+
+```bash
+git config core.hooksPath .githooks
+```
