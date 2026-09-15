@@ -3,6 +3,8 @@
 Один **блок темы** = один файл `{тема}/{тема}.md` (все вопросы подряд).
 Отдельно — выгрузки с реальных собесов в `interviews/`.
 
+Каталог блоков и вопросов без ответов: [`questions.md`](./questions.md).
+
 ## Темы
 
 - [`python-basics`](./topics/python-basics/python-basics.md) — Python basics (23)
@@ -47,6 +49,7 @@ git config core.hooksPath .githooks
 
 ## Правила
 
-1. Тема = один md-файл со всеми вопросами блока.
-2. Новые собесы клади в `interviews/interview-02.md`, `interview-03.md`, …
-3. Примеры кода — в `examples/` рядом с темой или в `interviews/interview-NN-examples/`.
+1. Сначала сверься с [`questions.md`](./questions.md) (блоки → вопросы), потом пиши ответ в теме.
+2. Тема = один md-файл со всеми вопросами блока.
+3. Новые собесы клади в `interviews/interview-02.md`, `interview-03.md`, …
+4. Примеры кода — в `examples/` рядом с темой или в `interviews/interview-NN-examples/`.
