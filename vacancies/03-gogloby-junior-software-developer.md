@@ -38,14 +38,15 @@ Full-cycle разработка на **Python + JavaScript**, REST, реляци
 | Архитектура / практики | [`practices`](../topics/practices/practices.md) | should |
 | Async (плюс к росту) | [`python-async`](../topics/python-async/python-async.md) | nice |
 | AI-first / prompts | [`ai-tools`](../topics/ai-tools/ai-tools.md) | must |
+| English B2 | [`english`](../topics/english/english.md) | must |
 
 ## Gap (ещё нет блока)
 
 - **JavaScript глубже** / React / Next.js / Node
-- English B2
 
 ## План повторения (коротко)
 
 1. `python-basics` + `python-oop` + `databases` + `rest-drf`
 2. `frontend` + `git` + `ai-tools`
-3. Портфолио/GitHub под «что построил»
+3. `english` (таблицы + speaking prompts)
+4. Портфолио/GitHub под «что построил»

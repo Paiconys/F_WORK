@@ -35,16 +35,17 @@ AI-проекты: backend на **FastAPI**, интеграция LLM-агент
 | Docker / деплой (Azure в описании) | [`docker-infra`](../topics/docker-infra/docker-infra.md) | should |
 | FastAPI | [`fastapi`](../topics/fastapi/fastapi.md) | must |
 | AI-assisted dev (Claude Code и т.п.) | [`ai-tools`](../topics/ai-tools/ai-tools.md) | must |
+| English B1 | [`english`](../topics/english/english.md) | must |
 
 ## Gap (ещё нет блока)
 
 - **LangGraph / LLM-агенты** (продуктовые агенты, не IDE)
 - **pgvector / embeddings**
-- English B1
 
 ## План повторения (коротко)
 
 1. `python-basics` + `python-oop` + `python-async`
 2. `fastapi` + HTTP из `rest-drf`
 3. `databases` (Postgres) + `ai-tools`
-4. Параллельно: 1 туториал LangGraph (пока gap)
+4. `english` (таблицы + speaking prompts)
+5. Параллельно: 1 туториал LangGraph (пока gap)

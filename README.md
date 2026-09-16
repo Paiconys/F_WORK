@@ -28,6 +28,7 @@
 - [`git`](./topics/git/git.md) — Git (4)
 - [`practices`](./topics/practices/practices.md) — Практики (SOLID, паттерны) (2)
 - [`ai-tools`](./topics/ai-tools/ai-tools.md) — AI tools (для разработки) (6)
+- [`english`](./topics/english/english.md) — English (времена, active/passive, prompts)
 
 ## Вакансии
 

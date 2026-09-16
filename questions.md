@@ -28,6 +28,7 @@
 17. `git` — Git
 18. `practices` — Практики (SOLID, паттерны)
 19. `ai-tools` — AI tools (для разработки)
+20. `english` — English (времена, active/passive, prompts)
 
 Новый блок: допиши строку сюда → создай `topics/<имя>/<имя>.md` → добавь секцию вопросов ниже.
 
@@ -277,3 +278,18 @@
 - Как говорить об этом на собесе
 
 Ответы: [`topics/ai-tools/ai-tools.md`](./topics/ai-tools/ai-tools.md)
+
+### `english`
+
+- Present Simple vs Continuous — когда что
+- Past Simple vs Continuous
+- Present Perfect vs Past Simple
+- Present Perfect Continuous / Past Perfect
+- Future: will / going to / Present Continuous
+- Active vs Passive Voice (+ passive по временам)
+- Conditionals 0–3
+- Modals (can, must, should, might, would)
+- Articles a/an/the (кратко)
+- Interview chunks + speaking prompts
+
+Ответы: [`topics/english/english.md`](./topics/english/english.md)
