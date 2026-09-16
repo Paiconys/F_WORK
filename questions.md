@@ -281,15 +281,15 @@
 
 ### `english`
 
-- Present Simple vs Continuous — когда что
-- Past Simple vs Continuous
-- Present Perfect vs Past Simple
-- Present Perfect Continuous / Past Perfect
+- Present Simple — + / − / ? for I, you/we/they, he/she/it
+- Present Continuous — + / − / ?
+- Past Simple / Continuous — + / − / ?
+- Present Perfect / Perfect Continuous / Past Perfect
 - Future: will / going to / Present Continuous
-- Active vs Passive Voice (+ passive по временам)
+- Active vs Passive (+ − ? by tense)
 - Conditionals 0–3
 - Modals (can, must, should, might, would)
-- Articles a/an/the (кратко)
+- Articles / countable / comparatives (short)
 - Interview chunks + speaking prompts
 
 Ответы: [`topics/english/english.md`](./topics/english/english.md)
